@@ -8,8 +8,8 @@ int main(){
             int g=k+64;
             char ch=(char)g;
             printf("%c ",ch);
+            k++
         }
-        k++;
         printf("\n");
     }
     return 0;
