@@ -13,4 +13,5 @@ int main(){
         g=g+2;
         printf("\n");
     }
+    return 0;
 }
