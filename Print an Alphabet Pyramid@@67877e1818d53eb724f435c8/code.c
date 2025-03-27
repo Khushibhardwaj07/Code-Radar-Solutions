@@ -9,6 +9,7 @@ int main(){
             ch=(char)g;
             printf("%c ",ch);
         }
+        g++;
         printf("\n");
     }
     return 0;
