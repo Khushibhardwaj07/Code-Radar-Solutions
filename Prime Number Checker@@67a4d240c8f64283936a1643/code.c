@@ -1,7 +1,7 @@
-int isPrime(num){
-    int num,c;
-    int arr[num];
-    for (int i=0;i<num;i++){
+int isPrime(int num){
+    int n,c;
+    int arr[n];
+    for (int i=0;i<n;i++){
         scanf("%d",&arr[i]);
         int j=arr[i];
         c=0;
