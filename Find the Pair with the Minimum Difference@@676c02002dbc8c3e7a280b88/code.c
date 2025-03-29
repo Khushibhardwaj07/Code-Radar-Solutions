@@ -17,8 +17,8 @@ int main(){
                 else{
                     d=arr[j]-arr[i];
                 }
-                if (diff<min){
-                    min=diff;
+                if (d<min){
+                    min=d;
                     m=i;
                     v=j;
                 }
