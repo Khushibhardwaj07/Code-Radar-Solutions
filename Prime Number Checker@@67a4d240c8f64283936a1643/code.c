@@ -6,7 +6,6 @@ int isPrime(int num){
     for (int c=1;c<=num;c++){
         if(num%c==0){
             d++;
-            break;
         }
     }
     if (d==2){
