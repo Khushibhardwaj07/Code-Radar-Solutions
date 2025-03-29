@@ -1,10 +1,16 @@
 #include <stdio.h>
 int main(){
-    int n;
+    int n,even=0;
     scanf("%d",&n);
     int arr[n];
     for (int i=0;i<n;i++){
         scanf("%d",arr[i]);
+        if (arr[i]%2==0){
+            even+=1;
+        }
+    }
+    if(even==0){
+        printf("-1");
     }
     for (int j=0;j<n-1;j++){
         for (int i=0;i<n-1;i++){
@@ -20,9 +26,6 @@ int main(){
             printf("%d",arr[j]);
             break;
         }
-    }
-    else{
-        printf("-1");
     }
     return 0;
 }
