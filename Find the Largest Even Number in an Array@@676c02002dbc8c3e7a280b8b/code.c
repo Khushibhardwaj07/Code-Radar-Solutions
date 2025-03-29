@@ -21,7 +21,7 @@ int main(){
             }
         }
     }
-    for (int j=n-1;j>0;j--){
+    for (int j=n-1;j>=0;j--){
         if (j%2==0){
             printf("%d",arr[j]);
             break;
