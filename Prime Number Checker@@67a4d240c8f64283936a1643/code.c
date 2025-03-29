@@ -1,13 +1,12 @@
 void isPrime(int num){
-    int n,c;
-    int arr[n];
-    for (int i=0;i<n;i++){
+    int arr[num];
+    for (int i=0;i<num;i++){
         scanf("%d",&arr[i]);
         int j=arr[i];
-        c=0;
+        int c=0;
         for (int k=1;k<=j;k++){
             if (j%k==0){
-                c=+1;
+                c++;
             }
         }
         if(c==2){
