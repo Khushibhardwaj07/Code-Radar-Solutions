@@ -22,6 +22,7 @@ int main(){
                     v=j;
                 }
             }
+            }
             if (arr[m]>arr[v]){
                 int temp=arr[m];
                 arr[m]=arr[v];
