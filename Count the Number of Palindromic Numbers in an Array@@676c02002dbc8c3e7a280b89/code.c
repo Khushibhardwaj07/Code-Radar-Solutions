@@ -11,7 +11,8 @@ int main(){
         int rem=x%10;
         int rev=(rev*10)+rem;
         int num=x/10;
-        if (rev==x){
+    }
+    if (rev==x){
             count++;
         }
     }
