@@ -8,13 +8,14 @@ int main(){
     }
     for (int i=0;i<n;i++){
         int x=arr[i];
+        int o=x;
         int rev=0;
         while(x!=0){
             int rem=x%10;
             rev=(rev*10)+rem;
-            int x=x/10;
+            x=x/10;
         }
-        if (rev==x){
+        if (rev==o){
             count++;
         }
     }
