@@ -1,4 +1,4 @@
-void isPrime(int num){
+int isPrime(int num){
     int arr[num];
     for (int i=0;i<num;i++){
         scanf("%d",&arr[i]);
@@ -18,4 +18,5 @@ void isPrime(int num){
             
     }
         printf("\n");
+        return 0;
 }
