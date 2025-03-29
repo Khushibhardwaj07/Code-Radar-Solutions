@@ -9,10 +9,9 @@ int main(){
     int k;
     scanf("%d",&k);
     for (int j=0;j<=k;j++){
-        for (int a=1;a<n;a++){
-            a=+k;
+        for (int a=k+1;a<n;a++){
             int temp=arr[a];
-            arr[a]==arr[j];
+            arr[j]==arr[a];
             arr[j]=temp;
             printf("%d",arr[j]);
             printf("%d",arr[a]);
