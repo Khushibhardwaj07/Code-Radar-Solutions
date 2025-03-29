@@ -11,7 +11,7 @@ int main(){
     for (int j=0;j<=k;j++){
         for (int a=1;a<n;a++){
             a=+k;
-            temp=arr[a];
+            int temp=arr[a];
             arr[a]==arr[j];
             arr[j]=temp;
             printf("%d",arr[j]);
