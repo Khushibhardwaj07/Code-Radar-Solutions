@@ -6,13 +6,13 @@ int main(){
     for (int i=0;i<n;i++){
         scanf("%d",&arr[i]);
         int j=arr[i]
-        int count=0;
+        int c=0;
         for (int k=1;k<=j;k++){
             if (j%k==0){
-                count=+1;
+                c=+1;
             }
         }
-        if(count==2){
+        if(c==2){
             printf("1");
         }
         else{
