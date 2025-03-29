@@ -1,4 +1,4 @@
-int isPrime(int num){
+void isPrime(int num){
     int n,c;
     int arr[n];
     for (int i=0;i<n;i++){
