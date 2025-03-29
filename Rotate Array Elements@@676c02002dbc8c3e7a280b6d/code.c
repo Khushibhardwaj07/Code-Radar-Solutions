@@ -15,7 +15,6 @@ int main(){
             arr[j]=temp;
             printf("%d",arr[j]);
             printf("%d",arr[a]);
-            k++;
         }
     }
     return 0;
