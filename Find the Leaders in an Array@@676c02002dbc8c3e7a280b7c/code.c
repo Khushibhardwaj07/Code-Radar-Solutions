@@ -12,7 +12,7 @@ int main(){
             if (arr[i]>=arr[j]){
                 count++;
                 }
-        if (count==n-i){
+        if (count==(n-i-1)){
             printf("%d ",arr[i]);
             }
         
