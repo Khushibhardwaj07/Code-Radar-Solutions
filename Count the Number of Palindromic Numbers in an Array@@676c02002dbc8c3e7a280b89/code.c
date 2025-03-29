@@ -8,9 +8,12 @@ int main(){
     }
     for (int i=0;i<n;i++){
         int x=arr[i];
-        int rem=x%10;
-        int rev=(rev*10)+rem;
-        int num=x/10;
+        int rev=0;
+        while(x!=0){
+            int rem=x%10;
+            int rev=(rev*10)+rem;
+            int num=x/10;
+        }
         if (rev==x){
             count++;
         }
