@@ -18,6 +18,7 @@ int main(){
     if(same){
         if(arr[0]+arr[1]==t){
             printf("%d %d\n",arr[0],arr[1]);
+            break;
         }
     }
     for (int i=0;i<n;i++){
