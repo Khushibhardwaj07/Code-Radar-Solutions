@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <limits.h>
 int main(){
     int n,min=INT_MAX,m,v;
     scanf("%d",&n);
