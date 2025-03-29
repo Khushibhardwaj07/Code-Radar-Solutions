@@ -10,11 +10,11 @@ int isPrime(int num){
     }
     if (d==2){
         printf("1");
-        break;
+         break;
     }
     else{
         printf("0");
-        break;
+         break;
     }
     return 0;
 }
