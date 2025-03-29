@@ -1,24 +1,19 @@
 int isPrime(int num){
-    int arr[num];
-    for (int i=0;i<num;i++){
-        scanf("%d",&arr[i]);
-        int j=arr[i];
-        int c=0;
-        for (int k=1;k<=j;k++){
-            if (j%k==0){
-                c++;
-            }
+    int d=0;
+    if (num<=1){
+        printf("0");
+    }
+    for (int c=1;c<=num;c++){
+        if(num%c==0){
+            d++;
         }
-    if(c==2){
+    }
+    if (d==2){
         printf("1");
-        break;
     }
     else{
-        printf("0");
-        break;
+        print("0");
     }
-            
-    }
-        printf("\n");
-        return 0;
+    return 0;
 }
+
