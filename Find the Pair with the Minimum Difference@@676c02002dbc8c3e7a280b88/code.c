@@ -29,10 +29,11 @@ int main(){
                 arr[m]=arr[v];
                 arr[v]=temp;
             }
+            printf("%d %d",arr[m],arr[v]);
         }
         else{
             printf("-1");
         }
         return 0;
-        }
+}
 
