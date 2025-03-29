@@ -11,6 +11,7 @@ int main(){
             int count=0;
             if (arr[i]>=arr[j]){
                 count++;
+                break;
                 }
         if (count==n-1-i){
             printf("%d ",arr[i]);
