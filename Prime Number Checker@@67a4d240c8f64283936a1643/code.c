@@ -18,5 +18,4 @@ void isPrime(int num){
             
         }
         printf("\n");
-        return ;
     }
