@@ -11,10 +11,10 @@ int main(){
         for(int i=0;i<n;i++){
             for(int j=i+1;j<n;j++){
                 if(arr[i]>arr[j]){
-                    int diff=arr[i]-arr[j];
+                    int d=arr[i]-arr[j];
                 }
                 else{
-                    int diff=arr[j]-arr[i];
+                    int d=arr[j]-arr[i];
                 }
                 if(diff<min){
                     min=diff;
