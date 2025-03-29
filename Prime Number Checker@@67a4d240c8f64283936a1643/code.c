@@ -9,14 +9,14 @@ int isPrime(int num){
                 c++;
             }
         }
-        if(c==2){
-            printf("1");
-            break;
-        }
-        else{
-            printf("0");
-            break;
-        }
+    if(c==2){
+        printf("1");
+        break;
+    }
+    else{
+        printf("0");
+        break;
+    }
             
     }
         printf("\n");
