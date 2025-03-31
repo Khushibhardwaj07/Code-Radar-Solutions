@@ -9,16 +9,17 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for ( int i =0;i<n-1;i++){
-        if (arr[i]<=arr[i+1]){
+        if (arr[i]>arr[i+1]){
             counta++;
+            break;
         }
 
     }
-    if (counta==n-1){
-        printf("Sorted");
+    if (counta==1){
+        printf("Not Sorted");
     }
     else{
-        printf("Not Sorted");
+        printf("Sorted");
     }
     return 0;
 }
