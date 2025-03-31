@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int n,visited[n],count=0;
+    int n,visited[n];
     scanf("%d",&n);
     int arr[n];
     for ( int i=0;i<n;i++){
@@ -9,6 +9,7 @@ int main(){
     }
     for ( int i=0;i<n;i++){
         if (visited[i]!=0){
+            int count=1;
             for ( int k=i+1;k<n;k++){
                 if (arr[i]==arr[k]){
                     count++;
