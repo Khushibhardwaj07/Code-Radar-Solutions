@@ -11,7 +11,7 @@ int main(){
     for ( int i=k+1;i<n;i++){
         printf("%d\n",arr[i]);
     }
-    for ( int i=0;i<k;i++){
+    for ( int i=0;i<=k;i++){
         printf("%d\n",arr[i]);
     }
     return 0;
