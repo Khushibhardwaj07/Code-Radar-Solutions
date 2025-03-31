@@ -19,7 +19,7 @@ int main(){
     if (counta==n){
         printf("Sorted");
     }
-    if(countb==n){
+    if(countd==n){
         printf("Not Sorted");
     }
     return 0;
