@@ -1,22 +1,21 @@
-#include <stdio.h>
+#include <stdio.h> 
 int main(){
-    int n;
-    scanf("%d",&n);
-    int arr[n];
-    for ( int i=0;i<n;i++){
+    int a,max=0;
+    scanf("%d",&a);
+    int arr[a];
+    for (int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
-    int found=0;
-    for ( int i =0; i<n-1 ;i++){
+    for (int i=0;i<a-1;i++){
         if (arr[i]>arr[i+1]){
             printf("%d",arr[i]);
-            found=1;
+            max=1;
             break;
         }
     }
-    if(found!=1){
-        if (n>1){
-            printf("%d",arr[n-1]);
+    if (max==0){
+        if (arr[a-2]!=arr[a-1]){
+            printf("%d",arr[a-1]);
         }
         else{
             printf("-1");
