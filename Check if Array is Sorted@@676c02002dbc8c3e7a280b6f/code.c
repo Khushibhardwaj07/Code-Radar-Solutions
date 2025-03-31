@@ -6,9 +6,9 @@ int main(){
     for ( int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    int counta=0;
+    int countd=0;
     for ( int i =0;i<n;i++){
-        int counta=0;
-        int countd=0;
         if (arr[i]<=arr[i+1]){
             counta++;
         }
