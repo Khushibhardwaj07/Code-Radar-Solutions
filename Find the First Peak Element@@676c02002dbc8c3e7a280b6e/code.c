@@ -15,7 +15,12 @@ int main(){
         }
     }
     if(found!=1){
-        printf("-1");
+        if (n>1){
+            printf("%d",arr[n-1]);
+        }
+        else{
+            printf("-1");
+        }
     }
     return 0;
 }
