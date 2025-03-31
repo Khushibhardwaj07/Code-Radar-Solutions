@@ -16,10 +16,10 @@ int main(){
             countd++;
         }
     }
-    if (counta==n){
+    if (counta==n-1){
         printf("Sorted");
     }
-    if(countd==n){
+    else{
         printf("Not Sorted");
     }
     return 0;
