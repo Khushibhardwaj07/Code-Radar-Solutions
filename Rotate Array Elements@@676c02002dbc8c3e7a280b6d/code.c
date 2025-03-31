@@ -7,16 +7,11 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int k;
-    scanf("%d",&k);
-    for (int j=0;j<=k;j++){
-        for (int a=k+1;a<n;a++){
-            int temp=arr[a];
-            arr[j]==arr[a];
-            arr[j]=temp;
-            printf("%d",arr[j]);
-            printf("%d",arr[a]);
-        }
+    for ( int i=k;i<n;i++){
+        printf("%d",arr[i]);
+    }
+    for ( int i=0;i<k;i++){
+        printf("%d",arr[i]);
     }
     return 0;
-
 }
