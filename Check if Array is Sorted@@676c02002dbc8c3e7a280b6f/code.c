@@ -7,12 +7,20 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for ( int i =0;i<n;i++){
-        if (arr[i]<arr[i+1]){
-            printf("Sorted");
+        int counta=0;
+        int countd=0;
+        if (arr[i]<=arr[i+1]){
+            counta++;
         }
-        else{
-            printf("Not Sorted");
+        else if(arr[i]>=arr[i+1]){
+            countd++;
         }
+    }
+    if (counta==n){
+        printf("Sorted");
+    }
+    if(countb==n){
+        printf("Not Sorted");
     }
     return 0;
 }
