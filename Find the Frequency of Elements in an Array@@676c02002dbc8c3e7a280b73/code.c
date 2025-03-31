@@ -7,15 +7,15 @@ int main(){
         scanf("%d",&arr[i]);
         visited[i]=0;
     }
-    for ( int j=0;j<n;j++){
+    for ( int i=0;i<n;i++){
         if (visited[i]!=0){
-            for ( int k=j+1;k<n;k++){
-                if (arr[j]==arr[k]){
+            for ( int k=i+1;k<n;k++){
+                if (arr[i]==arr[k]){
                     count++;
                     visited[i]=1;
                 }
             }
-            printf("%d %d",arr[j],count);
+            printf("%d %d",arr[i],count);
         }
     }
     return 0; 
