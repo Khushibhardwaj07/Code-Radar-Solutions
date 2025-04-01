@@ -19,17 +19,17 @@ int main(){
                 }
                 if (d<min){
                     min=d;
-                    m=i;
-                    v=j;
+                    // m=i;
+                    // v=j;
                 }
             }
             }
-            if (arr[m]>arr[v]){
-                int temp=arr[m];
-                arr[m]=arr[v];
-                arr[v]=temp;
+            if (arr[i]>arr[j]){
+                int temp=arr[i];
+                arr[i]=arr[j];
+                arr[j]=temp;
             }
-            printf("%d %d",arr[m],arr[v]);
+            printf("%d %d",arr[i],arr[j]);
         }
         else{
             printf("-1");
