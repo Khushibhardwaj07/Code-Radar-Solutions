@@ -1,7 +1,6 @@
-// Your code here...
 #include <stdio.h>
 int main(){
-    int n,count=1;
+    int n,maxcount=1,count=0;
     scanf("%d",&n);
     int arr[n];
     for ( int i = 0;i<n;i++){
@@ -9,21 +8,25 @@ int main(){
     }
     for ( int i=0;i<n-1;i++){
         for ( int j=0;j<n-i-1;j++){
-            if (arr[i]>arr[j]){
+            if (arr[j]>arr[j+1]){
                 int temp=0;
-                temp=arr[i];
-                arr[i]=arr[j];
-                arr[j]=temp;
+                temp=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=temp;
             }
             }
         }
     for (int i=0;i<n-1;i++){
-        for (int j=i+1;j<n;j++){
-            if (arr[i]+1==arr[j]){
+            if (arr[i]==arr[i-1]+1){
                 count+=1;
             }
+            else if(arr[i]!=arr[i-1]){
+                count=1;
+            }
+            if (count >maxcount){
+                maxcount=count;
+            }
         }
-    }
-    printf("%d",count);
+    printf("%d",maxcount);
     return 0;
     }
